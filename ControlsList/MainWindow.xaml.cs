@@ -54,10 +54,7 @@ namespace ControlsList
                     }
                     controlsInfo.Add(controlInfo);
                 }
-                catch (Exception ex)
-                {
-                    
-                }
+                catch { }
             }
 
             return controlsInfo;
